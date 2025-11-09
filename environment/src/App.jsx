@@ -34,17 +34,17 @@ export default function App() {
         </div>
         <div className="mt-10">
           <img
-            src="https://images.unsplash.com/photo-1587614295999-6e61c1b0f18f?auto=format&fit=crop&w=1000&q=80"
+            src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=1200&q=80"
             alt="Laptop workspace"
             className="mx-auto rounded-2xl shadow-lg w-full max-w-3xl"
           />
         </div>
       </section>
 
-      {/* About Section (Right-aligned text) */}
+      {/* About Section (right-aligned text, left image) */}
       <section id="about" className="py-20 bg-white">
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center px-6">
-          {/* Image */}
+          {/* Image on Left */}
           <div className="md:w-1/2 mb-10 md:mb-0">
             <img
               src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQYs6umncWAt_JRltabQRlap1h5jMO39jp4UmHkfqcd3ecLFKnMBVtDDmJg6GHj2Zc2de2qoqgXifV9Ip_HodD-x1iZ_P90p7iK3oS0dW391MXffD5KDw_0zBsaHdCTxjduDAM-mHo&usqp=CAc"
@@ -53,7 +53,7 @@ export default function App() {
             />
           </div>
 
-          {/* Text */}
+          {/* Text on Right */}
           <div className="md:w-1/2 md:pl-12 text-right">
             <h3 className="text-3xl font-semibold mb-4 text-blue-600">
               We Power Your Laptop Lifestyle
@@ -132,7 +132,7 @@ export default function App() {
         </div>
       </section>
 
-      {/* Newsletter Section */}
+      {/* Newsletter */}
       <section id="newsletter" className="bg-blue-600 text-white py-16 text-center">
         <h3 className="text-3xl font-semibold mb-4">Get 10% Off Your First Order</h3>
         <p className="mb-6 text-blue-100">
@@ -151,7 +151,7 @@ export default function App() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-gray-900 text-gray-400 py-10">
+      <footer id="contact" className="bg-gray-900 text-gray-400 py-10">
         <div className="max-w-6xl mx-auto text-center">
           <h4 className="text-white text-2xl font-semibold mb-4">RAMM TECH</h4>
           <p className="mb-6">Accessories that power your laptop life.</p>
